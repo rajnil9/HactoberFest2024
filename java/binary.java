@@ -20,7 +20,7 @@ class Solution {
             // Append the sum modulo 2 to result (0 or 1)
             result.append(sum % 2);
 
-            // Update carry (sum divided by 2)
+            // Update carry (sum divided by 2)   
             carry = sum / 2;
 
             // Move to the next bit
